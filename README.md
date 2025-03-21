@@ -4,24 +4,7 @@
 <img src="./figure/1.png" width=100%>
 
 **Abstract:** 
-In recent years, as computer vision tasks have increasingly relied on high-quality image inputs, the task of image dehazing has received significant attention.
-Previously, many methods based on priors and deep learning have been proposed to address the task of image dehazing.
-Ignoring the domain gap between different data, former de-hazing methods usually adopt multiple datasets for explicit training, which often makes the methods themselves be violated. To address this problem, we
-propose a novel method of internal and external data augmen-
-tation to improve the existing dehazing methodology. By using
-cross-data external augmentor. The dataset inherits samples from
-different domains that are firmly aligned, making the model learn
-more robust and generalizable features. By using the internal
-data augmentation method, the model can fully exploit local
-information within the images, thereby obtaining more image
-details. To demonstrate the effectiveness of our proposed method,
-we conduct training on both the Natural Image Dataset (NID) and
-the Remote Sensing Image Dataset (RSID). Experimental results
-show that our method clearly resolves the domain gap in different
-dehazing datasets and presents a new pipeline for joint training in
-the dehazing task. Our approach significantly outperforms other
-advanced methods in dehazing and produces dehazed images that
-are closest to real haze-free images.
+While large models bring significant performance improvements, they often lead to overfitting. In image super-resolution tasks, diffusion models are one of the representatives of generative capabilities. They usually use large models as the architecture. However, large models face serious overfitting issues when dealing with a small amount of data and highly diverse images. To highlight this phenomenon, we propose a novel Gaussian quantization representation learning method for diffusion models to enhance the model's robustness. By introducing Gaussian quantization representation learning, we can effectively reduce overfitting while maintaining model complexity. On this basis, we have constructed a multi-source infrared image dataset. It is used to emphasize the overfitting issue of large models in small-sample and diverse image reconstruction. To validate the effectiveness of our method in reducing overfitting, we conduct experiments on the constructed multi-source infrared image dataset. The experimental results show that our method outperforms previous super-resolution methods and significantly alleviates the overfitting problem of large models in complex small-sample tasks.
 
 ### Visual
 <img src="./figure/2.png" width=100%>

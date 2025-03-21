@@ -64,17 +64,17 @@ python train.py --config configs/train_swinir.yaml
 ```
 3.Create the initial model weights.
 
-    ```shell
-    python scripts/make_stage2_init_weight.py \
-    --cldm_config configs/model/cldm.yaml \
-    --sd_weight [sd_v2.1_ckpt_path] \
-    --swinir_weight [swinir_ckpt_path] \
-    --output [init_weight_output_path]
-    ```
+```shell
+python scripts/make_stage2_init_weight.py \
+--cldm_config configs/model/cldm.yaml \
+--sd_weight [sd_v2.1_ckpt_path] \
+--swinir_weight [swinir_ckpt_path] \
+--output [init_weight_output_path]
+ ```
 4.train
-  ```shell
-    python train.py --config configs/train_cldm.yaml
-    ```
+```shell
+python train.py --config configs/train_cldm.yaml
+```
 
 
 

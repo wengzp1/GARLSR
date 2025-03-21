@@ -1,7 +1,7 @@
 # GARLSR
 
 ### Overview
-<img src="./figure/image.png" width=100%>
+<img src="./figure/framework.pdf" width=100%>
 
 **Abstract:** 
 In recent years, as computer vision tasks have increasingly relied on high-quality image inputs, the task of image dehazing has received significant attention.
@@ -24,8 +24,7 @@ advanced methods in dehazing and produces dehazed images that
 are closest to real haze-free images.
 
 ### Visual
-<img src="./figure/image1.png" width=100%>
-<img src="./figure/image2.png" width=100%>
+<img src="./figure/fig6_x4.pdf" width=100%>
 
 ## Preparation
 

@@ -82,7 +82,7 @@ python train.py --config configs/train_cldm.yaml
 
 Run the following script to test the trained model:
 
-``shell
+```shell
 python inference.py \
 --input inputs/demo/general \
 --config configs/model/cldm.yaml \

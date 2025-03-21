@@ -84,7 +84,7 @@ Run the following script to test the trained model:
 
 ```shell
 python inference.py \
---input inputs/demo/general \
+--input lq_dir_path \
 --config configs/model/cldm.yaml \
 --ckpt weights/your_generatecldm.ckpt \
 --reload_swinir --swinir_ckpt weights/your_generateswinir.ckpt \

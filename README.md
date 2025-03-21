@@ -50,7 +50,7 @@ Data Preparation
 
     For image restoration, fill in the following configuration files with appropriate values.
 
-    - [training set](configs/dataset/train.yaml) and [validation set](configs/dataset/val.yaml) for degradation.
+    - [training set](configs/dataset/general_deg_codeformer_train.yaml) and [validation set](configs/dataset/general_deg_codeformer_val.yaml) for degradation.
 
 ### Train
 1.Download pretrained [Stable Diffusion v2.1](https://huggingface.co/stabilityai/stable-diffusion-2-1-base) to provide generative capabilities.

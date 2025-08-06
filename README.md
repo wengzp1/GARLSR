@@ -29,7 +29,7 @@ pip install -r requirements.txt
 
 ### Data
 Data Preparation
-1. Generate file list of training set and validation set.
+1. Generate file list of training set and validation set. You can download the dataset on [[Baidu Drive](https://pan.baidu.com/s/16jUmZJA3oYyhbYPsG7GFNQ?pwd=1234)]
 
     ```shell
     python scripts/make_file_list.py \

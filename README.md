@@ -7,7 +7,7 @@
 While large models bring significant performance improvements, they often lead to overfitting. In image super-resolution tasks, diffusion models are one of the representatives of generative capabilities. They usually use large models as the architecture. However, large models face serious overfitting issues when dealing with a small amount of data and highly diverse images. To highlight this phenomenon, we propose a novel Gaussian quantization representation learning method for diffusion models to enhance the model's robustness. By introducing Gaussian quantization representation learning, we can effectively reduce overfitting while maintaining model complexity. On this basis, we have constructed a multi-source infrared image dataset. It is used to emphasize the overfitting issue of large models in small-sample and diverse image reconstruction. To validate the effectiveness of our method in reducing overfitting, we conduct experiments on the constructed multi-source infrared image dataset. The experimental results show that our method outperforms previous super-resolution methods and significantly alleviates the overfitting problem of large models in complex small-sample tasks.
 
 ### Visual
-<img src="./figure/2.png" width=100%>
+<img src="./figure/fig0.png" width=100%>
 
 ## Preparation
 
